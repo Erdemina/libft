@@ -1,0 +1,35 @@
+ft_toupper.c, ft_tolower.c ?
+bzero ? 
+
+
+calloc
+memset*
+memchr
+memcpy**
+memmove**
+
+strlcpy
+strlcat*
+strchr
+strrchr
+strncmp
+strnstr
+strdup
+strjoin*
+strtrim
+strmapi
+striteri
+
+
+
+
+
+substr*
+
+split
+itoa
+
+putchar_fd
+putstr_fd
+putendl_fd
+putnbr_fd
