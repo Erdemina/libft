@@ -1,28 +1,37 @@
-ft_toupper.c, ft_tolower.c ?
-bzero ? 
-
-
-calloc
+bzero 
 memset*
-memchr
-memcpy**
-memmove**
-
+memchr ? şüpheli
+memcpy** ??
+strlen
 strlcpy
 strlcat*
+strjoin*
+atoi
+isalnum
+isalpha
+isascii
+isdigit
+isprint
+toupper
+tolower
+------------------------------
+
+
+
+
 strchr
 strrchr
 strncmp
 strnstr
 strdup
-strjoin*
+
 strtrim
 strmapi
 striteri
 
 
-
-
+calloc
+memove
 
 substr*
 
