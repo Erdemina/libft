@@ -16,14 +16,13 @@ toupper
 tolower
 strchr
 strrchr
+strncmp
+strnstr
 ------------------------------
 
 
 
-
-6
-strncmp
-strnstr
+4
 strdup
 strtrim
 strmapi
