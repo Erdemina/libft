@@ -14,30 +14,33 @@ isdigit
 isprint
 toupper
 tolower
+strchr
+strrchr
 ------------------------------
 
 
 
 
-strchr
-strrchr
+6
 strncmp
 strnstr
 strdup
-
 strtrim
 strmapi
 striteri
 
-
+2
 calloc
 memove
 
+1
 substr*
 
+2
 split
 itoa
 
+4
 putchar_fd
 putstr_fd
 putendl_fd
