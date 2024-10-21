@@ -18,12 +18,12 @@ strchr
 strrchr
 strncmp
 strnstr
+strdup
 ------------------------------
 
 
 
-4
-strdup
+3
 strtrim
 strmapi
 striteri
