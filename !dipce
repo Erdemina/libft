@@ -19,7 +19,7 @@ strrchr
 strncmp
 strnstr
 strdup
-memove
+memove ??
 ------------------------------
 
 
@@ -29,8 +29,9 @@ strtrim
 strmapi
 striteri
 
-1
+2
 calloc
+memcmp
 
 1
 substr*
