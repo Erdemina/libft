@@ -29,10 +29,6 @@ strtrim
 strmapi
 striteri
 
-2
-calloc
-memcmp
-
 
 
 2
