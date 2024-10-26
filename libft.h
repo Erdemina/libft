@@ -6,7 +6,7 @@
 /*   By: eulutas <eulutas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/12 17:07:29 by eulutas           #+#    #+#             */
-/*   Updated: 2024/10/26 16:19:47 by eulutas          ###   ########.fr       */
+/*   Updated: 2024/10/26 17:24:28 by eulutas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,8 @@
 
 #include "stdio.h"
 #include "stdlib.h"
-int		atoi(const char *str);
+char *ft_substr(char const *s, unsigned int start, size_t len);
+int ft_atoi(const char *str);
 void ft_bzero(void *s, size_t n);
 void *ft_calloc(size_t count, size_t size);
 int ft_toupper(int c);
