@@ -6,17 +6,16 @@
 /*   By: eulutas <eulutas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/12 17:09:01 by eulutas           #+#    #+#             */
-/*   Updated: 2024/10/26 16:17:28 by eulutas          ###   ########.fr       */
+/*   Updated: 2024/10/26 18:33:04 by eulutas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_toupper(int c)
+int	ft_toupper(int c)
 {
-	if (c>='a' && c<='z')
+	if (c >= 'a' && c <= 'z')
 	{
-		return(c-32);
+		return (c - 32);
 	}
 	else
-		return c;
-	
+		return (c);
 }

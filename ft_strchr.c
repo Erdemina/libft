@@ -3,19 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eulutas <eulutas@student.42istanbul.com    +#+  +:+       +#+        */
+/*   By: eulutas <eulutas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 21:53:47 by eulutas           #+#    #+#             */
-/*   Updated: 2024/10/20 21:53:47 by eulutas          ###   ########.fr       */
+/*   Updated: 2024/10/26 18:23:32 by eulutas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strchr(const char *str, int c)
+char	*ft_strchr(const char *str, int c)
 {
-	int i;
-	unsigned char ch;
+	int				i;
+	unsigned char	ch;
 
 	i = 0;
 	ch = c;

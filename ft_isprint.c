@@ -6,11 +6,11 @@
 /*   By: eulutas <eulutas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/12 16:59:16 by eulutas           #+#    #+#             */
-/*   Updated: 2024/10/26 16:31:32 by eulutas          ###   ########.fr       */
+/*   Updated: 2024/10/26 18:15:10 by eulutas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isprint(int c)
+int	ft_isprint(int c)
 {
 	if (c <= 126 && c >= 32)
 	{
