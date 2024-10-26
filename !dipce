@@ -33,8 +33,7 @@ striteri
 calloc
 memcmp
 
-1
-substr*
+
 
 2
 split
