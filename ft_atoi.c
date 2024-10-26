@@ -6,11 +6,11 @@
 /*   By: eulutas <eulutas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/12 17:57:55 by eulutas           #+#    #+#             */
-/*   Updated: 2024/10/12 18:50:02 by eulutas          ###   ########.fr       */
+/*   Updated: 2024/10/26 16:35:30 by eulutas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int atoi(const char *str)
+int ft_atoi(const char *str)
 {
 	int i = 0;
 	int num = 0;

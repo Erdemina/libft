@@ -6,11 +6,11 @@
 /*   By: eulutas <eulutas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/12 17:09:01 by eulutas           #+#    #+#             */
-/*   Updated: 2024/10/12 17:11:14 by eulutas          ###   ########.fr       */
+/*   Updated: 2024/10/26 16:17:28 by eulutas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int toupper(int c)
+int ft_toupper(int c)
 {
 	if (c>='a' && c<='z')
 	{

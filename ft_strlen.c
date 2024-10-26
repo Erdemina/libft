@@ -6,12 +6,12 @@
 /*   By: eulutas <eulutas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/12 17:01:53 by eulutas           #+#    #+#             */
-/*   Updated: 2024/10/12 17:08:39 by eulutas          ###   ########.fr       */
+/*   Updated: 2024/10/26 16:18:16 by eulutas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-size_t strlen(const char *s)
+size_t ft_strlen(const char *s)
 {
 	size_t i = 0;
 	while (s[i] != '\0')

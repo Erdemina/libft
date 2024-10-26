@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eulutas <eulutas@student.42istanbul.com    +#+  +:+       +#+        */
+/*   By: eulutas <eulutas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 11:35:29 by eulutas           #+#    #+#             */
-/*   Updated: 2024/10/16 11:35:29 by eulutas          ###   ########.fr       */
+/*   Updated: 2024/10/26 16:18:49 by eulutas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-void *memset(void *dest, int c, size_t n)
+void *ft_memset(void *dest, int c, size_t n)
 {
 	unsigned char *str;
 	str = (unsigned char *)dest;

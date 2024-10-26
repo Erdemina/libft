@@ -6,11 +6,11 @@
 /*   By: eulutas <eulutas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/12 17:12:28 by eulutas           #+#    #+#             */
-/*   Updated: 2024/10/12 17:12:40 by eulutas          ###   ########.fr       */
+/*   Updated: 2024/10/26 16:17:47 by eulutas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int tolower(int c)
+int ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
