@@ -24,15 +24,8 @@ memove ??
 
 
 
-3
-strtrim
-strmapi
-striteri
-
-
-2
+1
 split
-itoa
 
 4
 putchar_fd
