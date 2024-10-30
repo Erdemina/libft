@@ -12,10 +12,10 @@
 
 #include "libft.h"
 
-static int ftcount(char const *s, char c)
+static int	ftcount(char const *s, char c)
 {
-	int i;
-	int count;
+	int	i;
+	int	count;
 
 	count = 1;
 	i = 0;
@@ -33,11 +33,11 @@ static int ftcount(char const *s, char c)
 	return (count);
 }
 
-char **ft_split(char const *s, char c)
+char	**ft_split(char const *s, char c)
 {
-	int i;
-	int st;
-	char **str;
+	int		i;
+	int		st;
+	char	**str;
 
 	i = 0;
 	st = 0;
