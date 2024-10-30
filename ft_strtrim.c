@@ -12,9 +12,9 @@
 
 #include "libft.h"
 
-char	*ft_strtrim(char const *s1, char const *set)
+char *ft_strtrim(char const *s1, char const *set)
 {
-	size_t	j;
+	size_t j;
 
 	if (!s1 || !set)
 	{
