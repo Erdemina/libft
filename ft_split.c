@@ -12,6 +12,17 @@
 
 #include "libft.h"
 
+static void ft_free(char **str)
+{
+	int i;
+	i = 0;
+	while (str[i])
+	{
+		free(str[i]);
+		i++;
+	}
+	free(str);
+}
 static int	ftcount(char const *s, char c)
 {
 	int	i;
@@ -51,9 +62,18 @@ char	**ft_split(char const *s, char c)
 		if (*s != c)
 		{
 			st = 0;
-			while (*s && *s != c && ++st)
+			while (*s && *s != c && st)
+			{
 				s++;
-			str[i++] = ft_substr(s - st, 0, st);
+				st++;
+			}
+			str[i] = ft_substr(s - st, 0, st);
+			if (!str[i])
+			{
+				ft_free(str);
+				return (NULL);
+			}
+			i++;
 		}
 		else
 			s++;
