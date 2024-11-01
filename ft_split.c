@@ -32,6 +32,8 @@ static int	ftcount(char const *s, char c)
 
 	count = 1;
 	i = 0;
+	if (!s)
+		return (0);
 	while (s[i])
 	{
 		if (s[i] != c)
@@ -54,8 +56,6 @@ char	**ft_split(char const *s, char c)
 
 	i = 0;
 	st = 0;
-	if (!s)
-		return (NULL);
 	str = malloc((ftcount(s, c)) * sizeof(char *));
 	if (!str)
 		return (NULL);
@@ -64,22 +64,14 @@ char	**ft_split(char const *s, char c)
 		if (*s != c)
 		{
 			st = 0;
-			while (*s && *s != c && st)
-			{
+			while (*s && *s != c && ++st)
 				s++;
-				st++;
-			}
 			str[i] = ft_substr(s - st, 0, st);
-			if (!str[i])
-			{
-				ft_free(str);
-				return (NULL);
-			}
-			i++;
+			if (!str[i++])
+				return (ft_free(str), NULL);
 		}
 		else
 			s++;
 	}
-	str[i] = 0;
-	return (str);
+	return (str[i] = 0, str);
 }
