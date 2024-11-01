@@ -12,9 +12,10 @@
 
 #include "libft.h"
 
-static void ft_free(char **str)
+static void	ft_free(char **str)
 {
-	int i;
+	int	i;
+
 	i = 0;
 	while (str[i])
 	{
@@ -23,6 +24,7 @@ static void ft_free(char **str)
 	}
 	free(str);
 }
+
 static int	ftcount(char const *s, char c)
 {
 	int	i;

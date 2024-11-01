@@ -36,7 +36,7 @@ SRC = 		ft_substr.c \
 
 
 
-CC = gcc
+CC = cc
 
 CFLAGS = -Wall -Wextra -Werror
 
